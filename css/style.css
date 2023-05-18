@@ -1,0 +1,190 @@
+
+body {
+  min-height: 100vh;
+  display: grid;
+  
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Carlito", sans-serif;
+  padding: 5px 7px 5px 7px;
+  overflow-y: scroll;
+  
+ 
+  
+}
+
+.fuente_carlito {
+  font-family: "Carlito", sans-serif;
+}
+
+.navegador {
+  
+  vertical-align: bottom;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+
+}
+
+#nav-list {
+  list-style-type:none;
+  grid-template-columns: repeat(6, 200px);
+  display: grid;
+  justify-content: center;
+}
+
+
+#nav-list li {
+  font-size: 18px;
+  margin: 15px;
+  
+}
+
+#nav-list li a {
+  padding: 5px 7px 5px 7px; 
+  text-decoration: none;
+  
+}
+
+
+.logo-cvac {
+  height: 50px;
+  width: 80px;
+  display: grid;
+} 
+
+/*barra de busqueda*/
+.input {
+  border-radius: 10px;
+}
+/*botones de arriba*/
+.botones {
+  height: 30px;
+  width: 100px;
+  margin: 10px;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  margin-bottom: 15px;
+
+}
+.botones:hover {
+  background-color: rgb(6, 9, 212);
+}
+
+.contenedor img{
+  height: 400px;
+  width: 300px;
+  
+}
+.contenedor iframe{
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 400px;
+  width: 600px;
+}
+.mariobanner{
+  display: inline-block;
+  text-align: center;
+  width: 950px;
+  color: #000000;
+}
+
+.mariobanner img {
+height: 400px;
+}
+
+.contenedor {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 100px;
+margin-left: 100px;
+background-color: rgb(0, 0, 0);
+
+}
+
+.contenedor p{
+  width: 200px;
+  color:#ffffff
+}
+
+.aside {
+  float:left;
+  width: 300px;
+  height:500px;
+  background-color: #ffffff;
+  border: 1px;
+  border-style: solid;
+  text-align: center;
+  justify-content: center;
+  
+}
+.aside h2{
+  text-align: center;
+}
+
+.login{
+  list-style-type: none;
+}
+
+#btn_login:hover{
+  background-color: rgb(206, 206, 211);
+}
+
+.login li{
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+.login h3{
+  text-align: center;
+}
+.foto_pocho{
+  height: 450px;
+  
+  width: 1000px;
+}
+
+.contenedor_candy{
+  display: inline-block;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+  
+}
+
+.logo_red_soc{
+  height: 40px;
+  width: 40px;
+}
+
+.footer{
+margin-top: auto;
+}
+
+
+/* .navegador ul {
+  list-style-type: none;
+  text-align: center;
+}
+.navegador li {
+  display: inline;
+  text-align: center;
+  margin: 0 10px 0 0;
+}
+navegador li a {
+  padding: 5px 7px 5px 7px;
+  color: #666;
+  background-color: #eeeeee;
+  border: 1px solid #ccc;
+  text-decoration: none;
+}
+.navegador li a:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.logo{
+    
+   margin: 0 auto;
+} */
