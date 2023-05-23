@@ -1,10 +1,9 @@
 
-body {
+.body {
   min-height: 100vh;
   display: grid;
-  
   flex-direction: column;
-  background-color: rgb(255, 255, 255);
+  background-color:  #ffffff;
   text-align: center;
   font-family: "Carlito", sans-serif;
   padding: 5px 7px 5px 7px;
@@ -19,12 +18,10 @@ body {
 }
 
 .navegador {
-  
   vertical-align: bottom;
   align-items: center;
   justify-content: center;
-  background-color: rgb(255, 255, 255);
-
+  background-color: #ffffff;
 }
 
 #nav-list {
@@ -32,6 +29,7 @@ body {
   grid-template-columns: repeat(6, 200px);
   display: grid;
   justify-content: center;
+  background-color: #ffffff
 }
 
 
@@ -49,9 +47,10 @@ body {
 
 
 .logo-cvac {
-  height: 50px;
-  width: 80px;
+  height: 60px;
+  width: 90px;
   display: grid;
+  align-items: center;
 } 
 
 /*barra de busqueda*/
@@ -61,9 +60,9 @@ body {
 /*botones de arriba*/
 .botones {
   height: 30px;
-  width: 100px;
+  width: 200px;
   margin: 10px;
-  background-color: rgb(0, 0, 0);
+  background-color: #000000;
   color: #ffffff;
   margin-bottom: 15px;
 
@@ -73,15 +72,16 @@ body {
 }
 
 .contenedor img{
-  height: 400px;
-  width: 300px;
-  
+height: 400px;
+width: 350px;
 }
 .contenedor iframe{
   margin-left: 10px;
   margin-right: 10px;
   height: 400px;
-  width: 600px;
+  width: 500px;
+
+  
 }
 .mariobanner{
   display: inline-block;
@@ -92,20 +92,20 @@ body {
 
 .mariobanner img {
 height: 400px;
+
 }
 
 .contenedor {
+
 display: flex;
 align-items: center;
 justify-content: center;
-margin-right: 100px;
-margin-left: 100px;
-background-color: rgb(0, 0, 0);
+background-color: #000000;
 
 }
-
+ 
 .contenedor p{
-  width: 200px;
+  
   color:#ffffff
 }
 
@@ -161,6 +161,15 @@ background-color: rgb(0, 0, 0);
 .footer{
 margin-top: auto;
 }
+
+@media screen and (max-width: 576px){
+  .container{
+    width: 100%;
+  }
+   
+  }
+
+
 
 
 /* .navegador ul {

@@ -4,47 +4,55 @@
     <title>CineVac</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link rel="icon" href="Recursos/logocinevac.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   
     <link
       href="https://fonts.googleapis.com/css2?family=Carlito:wght@400;700&display=swap"
-      rel="stylesheet">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <link>
+      rel="stylesheet"/>
   </head>
   <meta name="copyright" content="google" />
   <body class="body">
     <header>
       <nav class="navegador">
         <ul id="nav-list">
-          <li><img class="logo-cvac" src="Recursos/logocinevac.png" alt="logo"/></li>
-          <li><a href="Inicio.html" ><input type="button" value="Inicio" class="botones"/></a></li>
-          <li><a href="estrenos.html" ><input type="button" value="Estrenos" class="botones"/></a></li>
-          <li><a href="cartelera.html"><input type="button" value="Cartelera" class="botones"/></a></li>
-          <li><a href="proximamente.html"><input type="button" value="Próximamente" class="botones"/></a></li>
-          <li><a href="candy.html"><input type="button" value="Candy" class="botones"/></a></li>
-        </ul>
-      </nav>
+          <li> <img class="logo-cvac" src="Recursos/logocinevac.png" alt="logo"/></li>
+          <li ><a href="Inicio.html"><input type="button" value="Inicio" class="botones"/></a></li>
+          <li ><a href="estrenos.html"><input type="button" value="Estrenos" class="botones"/></a></li>
+          <li ><a href="cartelera.html"><input type="button" value="Cartelera" class="botones"/></a></li>
+          <li ><a href="proximamente.html"><input type="button" value="Próximamente" class="botones"/></a></li>
+          <li ><a href="candy.html"><input type="button" value="Candy" class="botones"/></a></li>
+          </ul>
+        </nav>
     </header>
+    
+    
+<main>
     <h1>Cartelera</h1>
 
-    <h2>Avatar2: The way of Water.</h3>
-    <div class="contenedor">
-      <img src="Recursos/avatar.jpg" />
-      <iframe src="https://www.youtube.com/embed/d9MyW72ELq0" title="Avatar: The Way of Water | Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <p>
+    <div class="container">
+      <h2>Avatar2: The way of Water.</h3>
+    <div class="contenedor row">
+        <img class="col-4" src="Recursos/avatar.jpg" />
+        <iframe class="col-6" src="https://www.youtube.com/embed/d9MyW72ELq0" title="Avatar: The Way of Water | Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p class="col-2">
         Jake Sully y Ney'tiri han formado una familia y hacen todo lo posible
         por permanecer juntos. Sin embargo, deben abandonar su hogar y explorar
         las regiones de Pandora cuando una antigua amenaza reaparece.
-      </p>
+        </p>
     </div>
+    </div>
+
+    <div class="container">
     <h2>Star Wars: The last Jedi</h2>
-    <div class="contenedor">
-      <img src="Recursos/starwars.jpg" />
-      <iframe src="https://www.youtube.com/embed/Q0CbN8sfihY" title="Star Wars: The Last Jedi Trailer (Official)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <p>
+    <div class="contenedor row">
+      <img class="col-4" src="Recursos/starwars.jpg" />
+      <iframe class="col-6" src="https://www.youtube.com/embed/Q0CbN8sfihY" title="Star Wars: The Last Jedi Trailer (Official)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <p class="col-2">
         La Primera Orden ha acorralado a los últimos miembros de la resistencia.
         Su última esperanza es que Finn se introduzca en la nave de Snoke y
         desactive el radar que les permite localizarlos. Mientras él trata, en
@@ -53,17 +61,21 @@
         de que la entrene y la convierta en la última jedi.
       </p>
     </div>
+    </div>
 
+    <div class="container">
     <h2>Batman Begins</h2>
-    <div class="contenedor">
-      <img src="Recursos/batman.jpg" />
-      <iframe src="https://www.youtube.com/embed/neY2xVmOfUM" title="Batman Begins (2005) Official Trailer #1 - Christopher Nolan Movie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <p>
+    <div class="contenedor row">
+      <img class="col-4"src="Recursos/batman.jpg" />
+      <iframe class="col-6"src="https://www.youtube.com/embed/neY2xVmOfUM" title="Batman Begins (2005) Official Trailer #1 - Christopher Nolan Movie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <p class="col-2">
         Después de la muerte de sus padres, el joven heredero Bruce Wayne se
         convierte en un vengador enmascarado que lucha contra las fuerzas del
         mal en Ciudad Gótica.
       </p>
     </div>
+  </div>
+  </main>
 
     <footer class="footer">
       <p>Seguinos en nuestras redes:</p>
