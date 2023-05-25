@@ -8,28 +8,21 @@
   font-family: "Carlito", sans-serif;
   padding: 5px 7px 5px 7px;
   overflow-y: scroll;
-  
- 
-  
 }
 
 .fuente_carlito {
   font-family: "Carlito", sans-serif;
 }
 
-.navegador {
-  vertical-align: bottom;
-  align-items: center;
-  justify-content: center;
-  background-color: #ffffff;
-}
 
 #nav-list {
   list-style-type:none;
   grid-template-columns: repeat(6, 200px);
   display: grid;
   justify-content: center;
-  background-color: #ffffff
+  background-color: #ffffff;
+  
+  
 }
 
 
@@ -42,9 +35,12 @@
 #nav-list li a {
   padding: 5px 7px 5px 7px; 
   text-decoration: none;
-  
+  color: #000000;
 }
 
+#nav-list li a:hover {
+  color: #002fff;
+}
 
 .logo-cvac {
   height: 60px;
@@ -68,16 +64,29 @@
 
 }
 .botones:hover {
-  background-color: rgb(6, 9, 212);
+  background-color: rgb(35, 33, 190);
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  background-color: #000000;
+  width: 100%;
+}
+
+
+.contenedor p{
+  margin-left: 35px;
+  color:#ffffff
 }
 
 .contenedor img{
 height: 400px;
 width: 350px;
 }
+
 .contenedor iframe{
-  margin-left: 10px;
-  margin-right: 10px;
   height: 400px;
   width: 500px;
 
@@ -95,25 +104,14 @@ height: 400px;
 
 }
 
-.contenedor {
-
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: #000000;
-
-}
- 
-.contenedor p{
-  
-  color:#ffffff
-}
 
 .aside {
   float:left;
   width: 300px;
   height:500px;
+  margin-top: 45px;
   background-color: #ffffff;
+  color: #000000;
   border: 1px;
   border-style: solid;
   text-align: center;
@@ -128,27 +126,19 @@ background-color: #000000;
   list-style-type: none;
 }
 
-#btn_login:hover{
-  background-color: rgb(206, 206, 211);
-}
-
 .login li{
   margin-bottom: 10px;
   margin-right: 30px;
+  
 }
 
-.foto_pocho{
-  height: 450px;
-  
-  width: 1000px;
-}
 
 .contenedor_candy{
   display: inline-block;
   align-items: center;
   justify-content: center; 
   text-align: center;
-  
+
 }
 
 .logo_red_soc{
@@ -156,19 +146,20 @@ background-color: #000000;
   width: 40px;
 }
 
-.footer{
-margin-top: auto;
+
+
+.navbar-nav .nav-link{
+  color: rgb(0, 0, 0);
 }
 
-@media screen and (max-width: 576px){
-  .container{
-    width: 100vh;
-  }
-   
-  }
+.navbar-nav .nav-link:hover {
+  color: rgb(0, 46, 252);
+}
 
-
-
+.container h3{
+  margin-top: 35px;
+  margin-bottom: 5px;
+}
 
 /* .navegador ul {
   list-style-type: none;
