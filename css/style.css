@@ -8,6 +8,12 @@
   font-family: "Carlito", sans-serif;
   padding: 5px 7px 5px 7px;
   overflow-y: scroll;
+  border-color: #000000;
+}
+
+.encabezado{
+  border-bottom: 1px solid;
+  
 }
 
 .fuente_carlito {
@@ -49,10 +55,7 @@
   align-items: center;
 } 
 
-/*barra de busqueda*/
-.input {
-  border-radius: 10px;
-}
+
 /*botones de arriba*/
 .botones {
   height: 30px;
@@ -138,7 +141,7 @@ height: 400px;
   align-items: center;
   justify-content: center; 
   text-align: center;
-
+  width: 1200px;
 }
 
 .logo_red_soc{
@@ -156,10 +159,31 @@ height: 400px;
   color: rgb(0, 46, 252);
 }
 
+.container h1{
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
 .container h3{
   margin-top: 35px;
   margin-bottom: 5px;
 }
+
+@media screen and (max-width: 400px){
+    img.logo-cvac{ width: 200px; height: 130px;}
+    #nav-list li{ font-size:3rem;}
+    h1 {font-size: 4rem;}
+    h3 {font-size: 3rem;}
+    p {font-size: 2.5rem;}
+    img.img-fluid {width: 700px ; height: 800px ;}
+    iframe.embed-responsive-item {width: 900px; height: 500px;}
+    h5{font-size: 2.5rem;}
+    h6{font-size: 2rem;}
+    img.logo_red_soc{width: 60px ; height: 60px;}
+    }
+
+ 
+
 
 /* .navegador ul {
   list-style-type: none;
