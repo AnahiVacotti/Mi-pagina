@@ -1,0 +1,62 @@
+/*BODY*/
+.body {
+    min-height: 100vh;
+    display: grid;
+    flex-direction: column;
+    background-color: $color-blanco;
+    text-align: center;
+    font-family: $fuente;
+    padding: $paddingvar;
+    overflow-y: scroll;
+    border-color: $color-negro;
+}
+.fuente_carlito {
+    font-family: $fuente;
+}
+
+
+/*GENERALES*/
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-negro;
+    width: 100%;
+    p {
+        margin-left: 35px;
+        color: $color-blanco;
+    }
+    img {
+        height: 425px;
+        width: 350px;
+    }
+    iframe {
+        height: 400px;
+        width: 500px;
+    }
+}
+
+.container {
+    h1 {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        margin-top: 35px;
+        margin-bottom: 5px;
+    }
+}
+.contenedor_candy {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    img {
+        width: 800px;
+        height: 450px;
+    }
+}

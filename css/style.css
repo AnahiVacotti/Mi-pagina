@@ -1,9 +1,36 @@
+/* Variables de estilo*/
+/* Variables de color*/
+/*HEADER*/
+.encabezado {
+  border-bottom: 1px solid;
+}
 
+#nav-list {
+  list-style-type: none;
+  grid-template-columns: repeat(6, 200px);
+  display: grid;
+  justify-content: center;
+  background-color: #ffffff;
+}
+#nav-list li {
+  font-size: 18px;
+  margin: 15px;
+}
+#nav-list a {
+  padding: 5px 7px 5px 7px;
+  text-decoration: none;
+  color: #000000;
+}
+#nav-list a:hover {
+  color: #0575f5;
+}
+
+/*BODY*/
 .body {
   min-height: 100vh;
   display: grid;
   flex-direction: column;
-  background-color:  #ffffff;
+  background-color: #ffffff;
   text-align: center;
   font-family: "Carlito", sans-serif;
   padding: 5px 7px 5px 7px;
@@ -11,41 +38,59 @@
   border-color: #000000;
 }
 
-.encabezado{
-  border-bottom: 1px solid;
-  
-}
-
 .fuente_carlito {
   font-family: "Carlito", sans-serif;
 }
 
-
-#nav-list {
-  list-style-type:none;
-  grid-template-columns: repeat(6, 200px);
-  display: grid;
+/*GENERALES*/
+.contenedor {
+  display: flex;
+  align-items: center;
   justify-content: center;
-  background-color: #ffffff;
-  
-  
+  background-color: #000000;
+  width: 100%;
+}
+.contenedor p {
+  margin-left: 35px;
+  color: #ffffff;
+}
+.contenedor img {
+  height: 425px;
+  width: 350px;
+}
+.contenedor iframe {
+  height: 400px;
+  width: 500px;
 }
 
-
-#nav-list li {
-  font-size: 18px;
-  margin: 15px;
-  
+.container h1 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 2rem;
+}
+.container h2 {
+  font-size: 1.5rem;
+}
+.container h3 {
+  margin-top: 35px;
+  margin-bottom: 5px;
 }
 
-#nav-list li a {
-  padding: 5px 7px 5px 7px; 
-  text-decoration: none;
-  color: #000000;
+.contenedor_candy {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.contenedor_candy img {
+  width: 800px;
+  height: 450px;
 }
 
-#nav-list li a:hover {
-  color: #002fff;
+/*LOGOS*/
+.logo_red_soc {
+  height: 40px;
+  width: 40px;
 }
 
 .logo-cvac {
@@ -53,160 +98,69 @@
   width: 90px;
   display: grid;
   align-items: center;
-} 
-
-
-/*botones de arriba*/
-.botones {
-  height: 30px;
-  width: 200px;
-  margin: 10px;
-  background-color: #000000;
-  color: #ffffff;
-  margin-bottom: 15px;
-
-}
-.botones:hover {
-  background-color: rgb(35, 33, 190);
 }
 
-.contenedor {
-  display: flex;
-  align-items: center;
-  justify-content: center ;
-  background-color: #000000;
-  width: 100%;
+@media screen and (max-width: 400px) {
+  img.logo-cvac {
+    width: 200px;
+    height: 130px;
+  }
+  #nav-list li {
+    font-size: 3rem;
+  }
+  .container h1 {
+    font-size: 4rem;
+  }
+  .container h2 {
+    font-size: 3.5rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  h5 {
+    font-size: 2.5rem;
+  }
+  h6 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+  img.img-fluid {
+    width: 700px;
+    height: 800px;
+  }
+  img.img-fluid-banner {
+    width: 100%;
+  }
+  img.img-fluid-candy {
+    width: 100%;
+    height: 700px;
+  }
+  iframe.embed-responsive-item {
+    width: 900px;
+    height: 500px;
+  }
+  img.logo_red_soc {
+    width: 60px;
+    height: 60px;
+  }
+  input.form-control {
+    width: 100%;
+    height: 100px;
+    font-size: 2.5rem;
+  }
+  input.btn {
+    width: 400px;
+    height: 100px;
+    font-size: 2rem;
+  }
+  div.text-center {
+    font-size: 2.5rem;
+  }
+  .contenedor_candy {
+    width: 100%;
+  }
 }
 
-
-.contenedor p{
-  margin-left: 35px;
-  color:#ffffff
-}
-
-.contenedor img{
-height: 400px;
-width: 350px;
-}
-
-.contenedor iframe{
-  height: 400px;
-  width: 500px;
-
-  
-}
-.mariobanner{
-  display: inline-block;
-  text-align: center;
-  width: 950px;
-  color: #000000;
-}
-
-.mariobanner img {
-height: 400px;
-
-}
-
-
-.aside {
-  float:left;
-  width: 300px;
-  height:500px;
-  margin-top: 45px;
-  background-color: #ffffff;
-  color: #000000;
-  border: 1px;
-  border-style: solid;
-  text-align: center;
-  justify-content: center;
-  
-}
-.aside h2{
-  text-align: center;
-}
-
-.login{
-  list-style-type: none;
-}
-
-.login li{
-  margin-bottom: 10px;
-  margin-right: 30px;
-  
-}
-
-
-.contenedor_candy{
-  display: inline-block;
-  align-items: center;
-  justify-content: center; 
-  text-align: center;
-  width: 1200px;
-}
-
-.logo_red_soc{
-  height: 40px;
-  width: 40px;
-}
-
-
-
-.navbar-nav .nav-link{
-  color: rgb(0, 0, 0);
-}
-
-.navbar-nav .nav-link:hover {
-  color: rgb(0, 46, 252);
-}
-
-.container h1{
-  margin-top: 20px;
-  margin-bottom: 5px;
-}
-
-.container h3{
-  margin-top: 35px;
-  margin-bottom: 5px;
-}
-
-@media screen and (max-width: 400px){
-    img.logo-cvac{ width: 200px; height: 130px;}
-    #nav-list li{ font-size:3rem;}
-    h1 {font-size: 4rem;}
-    h3 {font-size: 3rem;}
-    p {font-size: 2.5rem;}
-    img.img-fluid {width: 700px ; height: 800px ;}
-    iframe.embed-responsive-item {width: 900px; height: 500px;}
-    h5{font-size: 2.5rem;}
-    h6{font-size: 2rem;}
-    img.logo_red_soc{width: 60px ; height: 60px;}
-    }
-
- 
-
-
-/* .navegador ul {
-  list-style-type: none;
-  text-align: center;
-}
-.navegador li {
-  display: inline;
-  text-align: center;
-  margin: 0 10px 0 0;
-}
-navegador li a {
-  padding: 5px 7px 5px 7px;
-  color: #666;
-  background-color: #eeeeee;
-  border: 1px solid #ccc;
-  text-decoration: none;
-}
-.navegador li a:hover {
-  background-color: #333333;
-  color: #ffffff;
-}
-
-.logo{
-    
-   margin: 0 auto;
-} */
+/*# sourceMappingURL=style.css.map */
