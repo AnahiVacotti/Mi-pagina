@@ -1,22 +1,27 @@
-@import 'variables';
-@import 'header';
-@import 'generales';
-@import 'logos';
+@import "variables";
+@import "header";
+@import "generales";
+@import "logos";
 
 @media screen and (max-width: 400px) {
-  img.logo-cvac {
-    width: 200px;
-    height: 130px;
-  }
   #nav-list li {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
-  .container h1 {
-    font-size: 4rem;
+  .container {
+    h1 {
+      font-size: 4rem;
+    }
+    h2 {
+      font-size: 3.5rem;
+    }
   }
-  .container h2 {
-    font-size: 3.5rem;
+
+  .contenedor {
+    p {
+      font-size: 2.5rem;
+    }
   }
+
   h3 {
     font-size: 3rem;
   }
@@ -26,8 +31,10 @@
   h6 {
     font-size: 2rem;
   }
-  p {
-    font-size: 2.5rem;
+
+  img.logo-cvac {
+    width: 250px;
+    height: 150px;
   }
   img.img-fluid {
     width: 700px;
@@ -40,15 +47,15 @@
     width: 100%;
     height: 700px;
   }
-  iframe.embed-responsive-item {
-    width: 900px;
-    height: 500px;
-  }
-  
   img.logo_red_soc {
     width: 60px;
     height: 60px;
   }
+  iframe.embed-responsive-item {
+    width: 900px;
+    height: 500px;
+  }
+
   input.form-control {
     width: 100%;
     height: 100px;
